@@ -133,3 +133,15 @@ input[type="range"] { width: 100%; margin: .6rem 0 0; accent-color: var(--accent
   .output-actions { flex-direction: column-reverse; }
   .btn, .btn.primary { flex: none; width: 100%; }
 }
+
+/* About, how to use and questions (for visitors and search engines) */
+.about { width: min(640px, 100% - 2rem); margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: .95rem; }
+.about h2 { margin: 0 0 .5rem; font-size: 1.1rem; color: var(--ink); }
+.about h3 { margin: 1.25rem 0 .4rem; font-size: .98rem; color: var(--ink); }
+.about p { margin: 0 0 .5rem; max-width: 70ch; }
+.about ol { margin: 0; padding-left: 1.25rem; }
+.about li { margin: .2rem 0; }
+.about details { border-bottom: 1px solid var(--rule); padding: .55rem 0; max-width: 70ch; }
+.about summary { cursor: pointer; color: var(--ink); font-weight: 500; }
+.about details p { margin: .4rem 0 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
